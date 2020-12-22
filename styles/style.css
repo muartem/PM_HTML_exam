@@ -23,7 +23,7 @@ a{
     border-radius: 10px;
     background-color: #bbbb77;
 }
-.main ~ div:nth-child(2n){
+.promotion ~ div{
     background-color: #77bbbb;
 }
 /*======================TOP MENU=======================*/
