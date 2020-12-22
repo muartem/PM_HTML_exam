@@ -2,7 +2,7 @@
     transition-duration: .2s;
     font-family: Roboto sans-serif;
 }
-header, .slider, .banner{
+.header, .slider, .banner{
     background-color: #77bbbb;
     min-height: 140px;
 }
@@ -16,7 +16,7 @@ a{
     min-width: 750px;
     margin: 0 auto;
 }
-.main ~ div{
+.new-items ~ div{
     font-size: 30px;
     min-height: 100px;
     margin: 10px 0;
@@ -115,7 +115,7 @@ li:hover>a{
 }
 .nav-items>div:not(:last-child){
     border-right: 1px solid #ff8f62;
-}
+}{}
 .nav-left, .nav-right{
     min-height: inherit;
     width: 10px;
@@ -185,7 +185,6 @@ li:hover>a{
     font-weight: 500;
     color: #4673ab;
 }
-
 .news-day{
     width: 36px;
     height: 28px;
@@ -197,11 +196,8 @@ li:hover>a{
     line-height: 1;
     margin: -25% auto 0 auto;
 }
-
 /*****news***/
-
 /*****banner*/
-
 .banner{
     grid-area: banner;
     padding: 15px 36px 15px 38px;
@@ -211,6 +207,59 @@ li:hover>a{
     grid-area: slider;
 }
 /************************Section************************/
+
+/**************CARDS*******/
+.cards{
+    width: 100%;
+    max-width: 100%;
+}
+.cards header{
+    display: grid;
+    grid-template-columns: max-content 1fr max-content;
+    align-items: center;
+}
+.cards hr{
+    height: 1px;
+}
+.cards h2{
+    margin-right: 25px;
+    font-size: 22px;
+    color: #040d0d;
+}
+.cards a{
+    margin-left: 12px;
+    font-size: 13px;
+    text-decoration: underline;
+    color: #4673ab;
+}
+.crd-slider{
+    margin: 40px 0;
+    display: grid;
+    grid-template-columns: max-content 1fr max-content;
+    align-items: center;
+    grid-gap: 43px;
+}
+.crd-prev, .crd-next{
+    width: 16px;
+    height: 44px;
+    font-size: 1em;
+    color: #ff5816;
+}
+.crd-view{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 30px;
+    align-items: center;
+    overflow: hidden;
+}
+.card{
+    min-width: 213px;
+    /*width: 233px;*/
+    height: 388px;
+    border-radius: 10px;
+    border: solid 1px #dbdee6;
+}
+
 
 .footer{
     position: relative;
@@ -314,6 +363,9 @@ li:hover>a{
     }
     .no-mob{
         display: none;
+    }
+    .crd-view{
+        grid-template-columns: 1fr;
     }
 }
 
