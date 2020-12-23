@@ -1,5 +1,5 @@
 .slider {
-  margin-left: 30px;
+  /* margin-left: 30px; */
   width: 100%;
 }
 
@@ -12,6 +12,7 @@
   margin-bottom: 30px;
   padding: 15px 20px;
   font-style: italic;
+  text-align: center;
 }
 
 .banner span {
@@ -43,6 +44,7 @@
 
 .slider-dots li:hover {
   cursor: pointer;
+  background-color: var(--orange);
 }
 
 .slider-dots .active {
@@ -70,6 +72,11 @@
   top: 163px;
 }
 
+.slider-box__next:hover,
+.slider-box__prev:hover {
+  opacity: 80%;
+}
+
 .slider-box__next {
   background: url(/img/next.png);
   right: 25px;
@@ -86,6 +93,11 @@
   }
 }
 
+@media screen and (max-width: 750px) {
+  .banner {
+    font-size: 9px;
+  }
+}
 @media screen and (max-width: 320px) {
   .slider {
     display: none;
