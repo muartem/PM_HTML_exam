@@ -1,6 +1,7 @@
 .header__top {
   justify-content: space-between;
   margin-bottom: 7px;
+  font-size: 13px;
 }
 
 .header__top-region > span {
@@ -40,6 +41,10 @@
   text-decoration-style: dotted;
 }
 
+.header__search-ico {
+  display: none;
+}
+
 .header__contacts-bubble:hover {
   cursor: pointer;
 }
@@ -51,6 +56,7 @@
 .header__contacts-main p:not(:first-child),
 .header__contacts-main a {
   font-size: 13px;
+  line-height: 20px;
 }
 
 .header__contacts-main a {
@@ -64,6 +70,12 @@
 
 .header__contacts svg {
   margin-right: 3px;
+}
+
+.header__contacts .skype {
+  display: none;
+  align-items: center;
+  font-size: 13px;
 }
 
 .header__search-title {
@@ -152,10 +164,27 @@
   .header__search {
     display: none;
   }
+  .header__search-ico {
+    display: block;
+  }
+  .header__contacts .skype {
+    display: flex;
+  }
 }
 
 @media screen and (max-width: 750px) {
   .header__contacts-bubble {
     display: none;
+  }
+  .header__contacts,
+  .header__contacts p {
+    justify-content: flex-end;
+    text-align: right;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .header__contacts-main {
+    display: flex;
   }
 }
