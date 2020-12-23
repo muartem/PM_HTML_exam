@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ab43d98f-5683-4f63-b478-d75c478ecbe8" name="Default Changelist" comment="CARDS view all">
+      <change afterPath="$PROJECT_DIR$/.idea/PM_HTML_exam.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/ico_cart.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/ico_thumb.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/news_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/news_1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/style.css" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Merge.Settings">
+    <option name="BRANCH" value="master" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1lqa5lRtqdboKlCg5Vk8KMEFT0L" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ab43d98f-5683-4f63-b478-d75c478ecbe8" name="Default Changelist" comment="" />
+      <created>1608326919576</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1608326919576</updated>
+      <workItem from="1608326929719" duration="38788000" />
+      <workItem from="1608676281620" duration="13248000" />
+    </task>
+    <task id="LOCAL-00001" summary="basic layout">
+      <created>1608330284235</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1608330284235</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Top-nav menu">
+      <created>1608381903752</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1608381903752</updated>
+    </task>
+    <task id="LOCAL-00003" summary="MARAFET">
+      <created>1608605343058</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1608605343058</updated>
+    </task>
+    <task id="LOCAL-00004" summary="MARAFET">
+      <created>1608605531070</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1608605531070</updated>
+    </task>
+    <task id="LOCAL-00005" summary="MARAFET">
+      <created>1608605575230</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1608605575230</updated>
+    </task>
+    <task id="LOCAL-00006" summary="CARDS view &quot;new-items&quot;">
+      <created>1608611193027</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1608611193027</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="basic layout" />
+    <MESSAGE value="Top-nav menu" />
+    <MESSAGE value="MARAFET" />
+    <MESSAGE value="CARDS view &quot;new-items&quot;" />
+    <MESSAGE value="CARDS view all" />
+    <option name="LAST_COMMIT_MESSAGE" value="CARDS view all" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="431" y="0" key="CommitChangelistDialog2" timestamp="1608689226884">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="345" y="0" key="CommitChangelistDialog2/0.0.1536.834@0.0.1536.834" timestamp="1608605573044" />
+    <state x="431" y="0" key="CommitChangelistDialog2/0.0.1920.1050@0.0.1920.1050" timestamp="1608689226884" />
+    <state x="451" y="189" key="Vcs.Push.Dialog.v2" timestamp="1608611198028">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="361" y="150" key="Vcs.Push.Dialog.v2/0.0.1536.834@0.0.1536.834" timestamp="1608605577396" />
+    <state x="451" y="189" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1608611198028" />
+    <state x="425" y="189" key="run.anything.popup" timestamp="1608608313064">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="425" y="189" key="run.anything.popup/0.0.1536.834@0.0.1536.834" timestamp="1608608313064" />
+  </component>
+</project>
