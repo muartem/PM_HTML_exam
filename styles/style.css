@@ -1,37 +1,35 @@
-.container{
-    max-width: 80%;
-    margin: 0 auto;
-}
-.flex{
-    display: flex;
-}
-.top-menu {
-    background-color: #000;
-    color: #fff;
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,500;1,300;1,500&display=swap');
+
+* {
+  font-family: 'Roboto-light', sans-serif;
 }
 
-.footer{
-    background-color: #3e6180; /* цвет на глаз*/
-}
-.disclaimer{
-    background-color: #273c4f; /* цвет на глаз*/
+:root {
+  --link-color: #4673ab;
+  --orange: #ff5816;
 }
 
+button:hover {
+  cursor: pointer;
+}
 
-div{
-    border: 2px solid darkorchid;
-    min-height: 20px;
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
 }
-@media screen and (max-width: 980px){
-    .menu{
-        display: none;
-    }
+.top_menu {
+  height: 40px;
+  background-color: black;
+  width: 100%;
+  margin-bottom: 15px;
 }
-@media screen and (max-width: 750px){
 
+.flex {
+  display: flex;
 }
-@media screen and (max-width: 320px){
-    .no-mob{
-        display: none;
-    }
+
+@media screen and (max-width: 980px) {
+  .container {
+    padding: 0 10px;
+  }
 }
