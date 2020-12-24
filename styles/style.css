@@ -27,7 +27,7 @@ button:hover {
   width: 100%;
   max-width: 100%;
 }
-.cards header {
+.cards > header {
   display: grid;
   grid-template-columns: max-content 1fr max-content;
   align-items: center;
