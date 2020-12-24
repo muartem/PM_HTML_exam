@@ -1,0 +1,24 @@
+.brands {
+  width: 100%;
+}
+.brands header {
+  margin-bottom: 50px;
+}
+
+.brands__content {
+  overflow-x: auto;
+  width: 100%;
+}
+
+.brands__content img {
+  max-width: 1140px;
+}
+.brands {
+  margin-bottom: 60px;
+}
+
+@media (max-width: 749px) {
+  .brands {
+    display: none;
+  }
+}
