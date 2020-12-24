@@ -23,6 +23,25 @@ button:hover {
   display: flex;
 }
 
+.cards {
+  width: 100%;
+  max-width: 100%;
+}
+.cards header {
+  display: grid;
+  grid-template-columns: max-content 1fr max-content;
+  align-items: center;
+}
+.cards hr {
+  height: 1px;
+  width: 100%;
+}
+.cards h2 {
+  margin-right: 25px;
+  font-size: 22px;
+  color: #040d0d;
+}
+
 @media screen and (max-width: 980px) {
   .container {
     padding: 0 10px;
