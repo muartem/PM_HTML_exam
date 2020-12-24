@@ -1,10 +1,113 @@
 .slider {
-  /* margin-left: 30px; */
   width: 100%;
 }
 
 .banner {
-  /* FIXME: !КОСТЫЛЬ */
+  background-color: #e3e5eb;
+  text-align: center;
+  padding: 15px 0;
+  border-radius: 10px;
+  font-style: italic;
+  font-size: 16px;
+  margin-bottom: 30px;
+}
+
+.banner b {
+  font-weight: 500;
+}
+
+.banner span {
+  color: var(--link-color);
+}
+
+.slider-box {
+  background: url('/img/slider.png') left center no-repeat;
+  background-size: auto;
+  border-radius: 10px;
+  min-height: 370px;
+  position: relative;
+}
+
+.slider-dots {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  display: flex;
+}
+
+.slider-dots li {
+  width: 15px;
+  height: 15px;
+  background-color: white;
+  border-radius: 5px;
+  margin-left: 3px;
+}
+
+.slider-dots li.active {
+  background-color: var(--orange);
+}
+
+.slider-dots li:hover {
+  background-color: var(--orange);
+  cursor: pointer;
+}
+
+.slider-control {
+  position: absolute;
+  top: 45%;
+}
+
+.slider-control.prev {
+  left: 20px;
+}
+
+.slider-control.next {
+  right: 20px;
+}
+
+.slider-link {
+  position: absolute;
+  left: 65px;
+  bottom: 45px;
+  border-radius: 10px;
+  border-bottom: 3px solid #c4c4c4;
+  color: var(--link-color);
+  background-color: white;
+  padding: 10px 30px;
+  font-weight: 500;
+}
+
+.slider-link:hover {
+  background-color: lightgray;
+}
+.news {
+  min-width: 263px;
+  height: 500px;
+  background-color: black;
+  margin-right: 30px;
+}
+
+@media (max-width: 980px) {
+  .banner {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 750px) {
+  .news-block {
+    display: none;
+  }
+  .news {
+    min-width: 220px;
+  }
+}
+/* .slider {
+  margin-left: 30px;
+  width: 100%;
+}
+
+.banner {
+  FIXME: !КОСТЫЛЬ 
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
   background-color: #e3e5eb;
@@ -102,4 +205,5 @@
   .slider {
     display: none;
   }
-}
+} 
+*/
