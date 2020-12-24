@@ -1,0 +1,27 @@
+.about {
+  margin-bottom: 70px;
+  padding-top: 40px;
+}
+
+.about section {
+  font-size: 15px;
+  line-height: 22px;
+}
+
+.about a {
+  color: var(--orange);
+  border-bottom: 1px solid var(--orange);
+}
+.about section > p:first-child {
+  margin-bottom: 20px;
+}
+
+.about section:nth-child(1) {
+  margin-right: 45px;
+}
+
+@media (max-width: 749px) {
+  .about {
+    display: none;
+  }
+}
