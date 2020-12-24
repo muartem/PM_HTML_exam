@@ -165,10 +165,6 @@
 }
 
 @media (max-width: 980px) {
-  .bubble {
-    display: none;
-  }
-
   .header__contacts-content {
     text-align: right;
   }
@@ -194,6 +190,9 @@
   .header__auth > a:first-child {
     display: none;
   }
+  .bubble {
+    display: none;
+  }
   .header__logo {
     font-size: 32px;
   }
@@ -210,7 +209,7 @@
   }
 
   .header__contacts-content {
-    margin-top: 35px;
+    margin-top: 10px;
     width: 100%;
     text-align: left;
     display: flex;
