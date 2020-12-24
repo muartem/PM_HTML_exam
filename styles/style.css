@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,500;1,300;1,500&display=swap');
 
 * {
-  font-family: 'Roboto-light', sans-serif;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
 }
 
 :root {
@@ -16,12 +17,6 @@ button:hover {
 .container {
   max-width: 1140px;
   margin: 0 auto;
-}
-.top_menu {
-  height: 40px;
-  background-color: black;
-  width: 100%;
-  margin-bottom: 15px;
 }
 
 .flex {
