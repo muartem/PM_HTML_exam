@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/style.css" />
+    <link rel="stylesheet" href="styles/reset.css" />
+    <link rel="stylesheet" href="styles/header.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <div class="header__top flex">
+          <p class="header__region">Ваш регион: <span>Москва</span></p>
+          <div class="header__auth">
+            <a href="#">Войти</a>
+            <a href="#">Личный кабинет</a>
+          </div>
+        </div>
+        <div class="header__main flex">
+          <div class="header__logo">
+            <p>HO<span>MY</span>RU</p>
+            <p class="header__logo-subtitle">ОБОРУДОВАНИЕ И РЕШЕНИЯ ДЛЯ VOIP</p>
+          </div>
+          <div class="header__contacts flex">
+            <div class="bubble">
+              <span>ОБРАТНЫЙ</span>
+              <span>ЗВОНОК</span>
+            </div>
+            <div class="header__contacts-content">
+              <div>
+                <p class="header__contacts-phone">+7 495 2-55-44-66</p>
+                <p class="header__contacts-hours">(пн-пт с 9 до 18 ч)</p>
+                <p class="flex">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                    width="16px"
+                    height="18px"
+                  >
+                    <image
+                      x="0px"
+                      y="0px"
+                      width="16px"
+                      height="18px"
+                      xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAASCAMAAABl5a5YAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAACoFBMVEXu6PLYzOG9qM3l3uvv6fLm3+vSxd3PwNnZzePRxNzQwdrWyt/Xy+HWy+Hf1ueznMadf7XOvtjVyN7c0+Xd1OXk3OqDXqKLZ6iRbayaerOkh7uxmsXYzuLYzeLo4+60nseDXaGRcK2rkcCVcq6HYqaAWKB9VJ5+VZ6AV5+KZaeXdrGqkL+LZ6jTxd2GYKWBWaG5pMrl2+uPbKyIYqXd0+W1nsiwl8SVdLCPbKqGX6SDXaJ/Vp+AVp99VJ1/VZ99U52AWKGBWKCEXaOQbqyTcq6zm8avl8O/q86OaqqMZ6m4o8nHttWHYqV1SZh2SpiLZ6jFs9KYeLGwlsR/Vp6HZKaIY6aLZaePa6qYd7Knjb6df7XQwduHYaWpj76FYaSMaKiSbq2bfLSmibzHt9Wrj7+qkb/a0OTHttWkibvp4+91SZhzR5d3TJl7UJt8U519VJ55T5t2Sph3TJpwQ5SAV5+Sb619VZ5zRpaSbqy4oMmvl8SRb616T5t1SJdwRJR/V5/JuNf7+fyznMZuQJJ/Vp+fgbexmcXDr9Glibx6UJtzR5ZxRJWYd7L////z7/ZvQZOfgri6pMuvlsPCrtF6Tpp1SpiKZajw6vT49vmtlMFpOo+zm8a6o8y1nce2n8h/VZ55Tpp2S5m5ocvRw9x4TZqWdbGqkMCtlMLArdCHYqZ6UJyIYqXw6/Pd0eZ8U5yLZ6irkL+JZKd7UZxzSJeqjr+7psxsPZBtP5F1SZdsPpF8UZx+VJ53S5nBrtH+/f6/qs6FXqOwmMTRxN2ihLlyRZZ5TZp5T5p1Spe8p8z9/f7t5/H49vry7vWulMN7UZ2hhLnf1efEstNwQpNxRZZ8Upx4TZlyRpWBWaGqj7/WyuHLu9iIY6Z6UZtxRJR7UZt2S5hdg46ZAAAAanRSTlMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAOSI7A2eLg1b2NSw8rv804EcfYGFxpp7DQ1d/g5OPk3dnRtLJkZBTIyRQqsv7+rSkVcO69wLWbbDYUR+ROFBQSDQNWZwIBR4IEw8Vr2wAAAAFiS0dEjRsM4tUAAAAHdElNRQfkDBcXGx90aAKJAAABPUlEQVQY0wEyAc3+AAABISIjJCUmJygpKissAgMABC0uamtsbW5vcHFxci8wBQAxMnN0dXZ3eHl6e3xwfTM0ADV+f4CBgoOEhYaHiG2JijYAN4uMjY2OjI+QkZKTjJRxOAA5lZaXjZiZmnubnJ2en2w6ADugoaKNo2yki6Wmp6ippDwAPaqVq6yta4pubK6vsLFwPgA/snyztI21tre4bLm6u3xAAEF8snK8vb6/wMHCw8TFxkIAQ6GyusdsyMnKy43MzXx9RABFi86ysmpqz9CNjY3RcNJGAEdI06qy1NXW19jZ2tuPSUoABktMTdyyxqGL3d6kTk9QBwAICVFSpN9TVFVWV1hZWgoLAAwNDlvSXF1eX2BhYg8QERIAExQVY3JkZRYXGBkaGxAREgAcHWZnaGkeHyAYGRobEBESVbB/thfk5ucAAAAASUVORK5CYII="
+                    />
+                  </svg>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                    width="16px"
+                    height="16px"
+                  >
+                    <image
+                      x="0px"
+                      y="0px"
+                      width="16px"
+                      height="16px"
+                      xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAACmlBMVEXX8NnI68uc2qKU2JvB6MTP7dLK683C6MXc8d3U7tbU7Nev4LbS69WBzI2t37ST25mB14mE14px1Xtm03Bl0m9w1HiC14uC14qM2JKZ2Z+K2JBi0Wxh0myD14uR2JjP7NF1035v0nnH6svF6cih4KeZ3qC85sGk3qlTymBSy1+c3KKM2JSA1YlfzGtZymZJxFlJxFhEwlREw1VPxF9Jw1p2zoJoynWw37Y5vEwntz2p3bDZ7NtmyHR3z4TV7Ni74sFUwmVPwGCz4bqo3LAvt0VCu1UttkMktDpZwmmEzo+237x1yIJrxnhkxHOAy4tRvmI2t0sqtEA0uElOvmB7y4eP0JhY0WNa0WZc0mhX0WRMzFlLy1hTzWBa0Gdaz2Zaz2dbz2ZYz2RQzV1IyVRZzmWT3pt11n9SzGBWzWNWzWRXzWRWzmNLzFlGx1Se4KX//v/S79VWzGNOylxSy2BTy2BUzGE7xExWy2TR8NT////+/v9+1olHxlZNyVxOyV1PyV1RyV5Ex1M+xE9Px17I7c7z+vVzz39DxFRKx1lLx1pKx1pExFQ7wEyY3aHG6stEwlRBw1BHxVZGxVZExFVFxVVGxFZFxFVCwlM5wEtJw1nL7c+G15E2vkg9wU87wE08wE1Bw1JBwlI5vks/wFEvu0JeyGzi9eSN2Zc7v05NxV2u5LaO2ZhGw1g7v0wsukE7vk06vkwpuDxkynLc8+DC6sjA6MZBwFMnuDwyukU3u0k1vEkktjpPw2G35b2z4rkyuEYltjoyukcyuUYyukYjtTkrt0FZxGmQ1pqq37GU1p1Au1IZsTAgtDYotj4rtkAuuEMuuEQntj0esjYisjgptD4gsTYUrywotD4gsjcmtD0qtj8qtkAktDobsTQVvf9UAAAAVnRSTlMAAAAAAAAAAAAAAAAAAAABJG+00tK2dCgCCm/q8HcMCJSdCgF1gQEo8PUufo/F0OLj4+TM1IuaMu/9OgWilgMKsrUULOnI8v6UFyBTIRA2lM/k0Zg7B9C5b1sAAAABYktHRHmh3NTQAAAAB3RJTUUH5AwXFxsTfd5OogAAARtJREFUGNMBEAHv/gAAAQIPEBESExQVFhcYAwQFAAAGGRobVldYWFdZHB0eBwUACB8gWltcXV5eX2BhYiEiCQAjJGNkZWZnaGlqa2pobCUmACcobW5vcHFyc3RndHVyKSoAK3Z3eHl6e3x9fn5+f4CBLAAtgoOEeYWGh4iJiomKinwuAC+LjI15jo+QkZKTlJKVljAAMZeYmZp5m5yMnZ2en6ChMgAzoqOkpaZ5p6ipqqusnq00ADWur7CxsrN5mrR5ebW2tzYANzi4ubq7vL2FeXl5vr85OgA7PMDBwsPExcbHyMnKyz0+AD9AzM3Oz9DR0tPU1dZBQgoAQ9dERUbY2drb3N1HSEkLDABKS0xNTk9QUVFSU1RVDQ4MKx9uqQwjmGwAAAAASUVORK5CYII="
+                    />
+                  </svg>
+
+                  +7 903 111-11-11
+                </p>
+              </div>
+              <div>
+                <p class="skype">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                    width="16"
+                    height="16"
+                    viewBox="0 0 16 16"
+                  >
+                    <image
+                      id="Layer_554"
+                      data-name="Layer 554"
+                      width="16"
+                      height="16"
+                      xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABHNCSVQICAgIfAhkiAAAA1FJREFUOE9Fk1toXFUUhr99zpkzuZ3cWtN0mrYxqRoipLVgTSg1RkJKFazaoA8a9KFQH4wPIj4F8aGISIrFFqxSUHzxHqR9yBjQhLSYB9MGEpO0TVNsk3TCZBozl8ycObct+wR0w3pZ/Pz/Wv+/tkhJyZoXGF8sFk8O37X70ra/q6rESPQ2Gj/ccYzFmYxmPh+Tq/WmvNVcoSVbKk2kH7Bdd/EJEEtBYJycyH776z2/F12AJkBK8CXhE1tVZcpkdyzyXX9r6eC+cn2pFGeL4PRC4e2BycI5TIUEAlWS6hJBrEygA6u2ZG1Thv16S1v+9FDpGy/V8XsGH9Ey8s+1GxvyYKgewI4ofNhqcqIhykNRLeTccHwuJVwGZossZSRVpSI91BnteqLamBLbL6WWUo7eoIARJJcPl3K0voTlgsf3d4sIAW8+HKXWNJhcd+ga3yRnw/4d+rVfOivbRdtvG+PTD4IjCvlopcbNHitUPXY1S/y2i5qsvUHnyjMWhpA0x3PcySp/JGc7yo6J9+bybw3O2J8r8+pKYL7HotbUmUm7fP23w3jKYybt82StjqkJxlKhdeBKXmkyL4r35/OnPpm2L2AI8CSvNxp8dqCcGnNrf6V0L+8zvOpy5laRBaUe+iVpqTbGRf98/t1z0/aZkEBN5vjstDRe2xuhuy7C45ZBQ5nKAtKOR/fVPJMPVFSSA7X6FXH6tv3ywPX8z2qqPeUaZ9tMRpI+F+YcVLQVEeip17l4sCKc6vxigf5JO7yNrlhkSMQz3s7e0ezNXF5aJxoNfmq3KPoBh0azTCeVEmBKbhyt5DHL+J9AFzRZYk4se5J3pnLfDC24fTVlMNpZwf7qSBjjl4s2xQBe3GXSsc3ECQK6xnP8seZv+SBlWqxISaLgx46PZSdWNoI9TdUag20lvBCLoAtlpLpQyZ/rLh/M2sQTARhhS613X6xLSQUwvO4+dWpi88fVTLBbAZorNRrLBIYQJIqS2XSA70FotnqO5NVHIl+FBEonB0zn3L3n/7I/Glnxej0HEyEJTzGQYGiEH0Ml5Upatmmzl5+2nv2PIAnkg4CMrzG74bVOpZwjYwm/5X4+MJ7bbXhTSf/wesGLRXSR6agz4n37oh9315jJfwHEZX4Bcb74HwAAAABJRU5ErkJggg=="
+                    />
+                  </svg>
+                  skype-on.06
+                </p>
+                <a href="mailto:info@homy.ru">info@homy.ru</a>
+              </div>
+            </div>
+          </div>
+          <div class="header__search">
+            <div class="header__search-title flex">
+              <div>
+                <svg
+                  id="Forma_1"
+                  data-name="Forma 1"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="25"
+                  height="25"
+                  viewBox="0 0 25 25"
+                >
+                  <path
+                    id="Forma_1-2"
+                    data-name="Forma 1"
+                    d="M1046.66,100.338A12.5,12.5,0,1,1,1055.5,104,12.464,12.464,0,0,1,1046.66,100.338Zm.553-17.125a11.719,11.719,0,1,0,8.285-3.432A11.685,11.685,0,0,0,1047.214,83.213Zm6.333,14.538h-1.562a.391.391,0,1,1,0-.781h1.171V94.626h-1.172a.391.391,0,0,1,0-.781h1.172v-.781h-1.172a.391.391,0,0,1,0-.781h1.172V86.813h-1.171a.391.391,0,0,1,0-.782h4.687a3.5,3.5,0,0,1,2.462,1.008l.025.022a3.511,3.511,0,0,1,.023,4.946l-.022.025a3.505,3.505,0,0,1-2.488,1.03h-2.735v.781h3.517a.391.391,0,0,1,0,.781h-3.517V96.97h1.173a.391.391,0,1,1,0,.781Zm3.124-5.468h0a2.727,2.727,0,0,0,1.934-.8l.022-.02a2.733,2.733,0,0,0-.022-3.847l-.021-.022a2.725,2.725,0,0,0-1.913-.78h-2.735v5.469Z"
+                    transform="translate(-1043 -79)"
+                    fill="#445667"
+                  />
+                </svg>
+              </div>
+              <div>
+                <p>VOIP РЕШЕНИЯ</p>
+                <p>ДЛЯ ЭКОНОМНЫХ ЛЮДЕЙ</p>
+              </div>
+            </div>
+            <form class="header__search-form flex">
+              <input type="text" placeholder="Поиск по сайту" />
+              <button>искать</button>
+            </form>
+          </div>
+          <div class="header__mobile flex">
+            <div class="header__search-ico">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="22.028"
+                height="22"
+                viewBox="0 0 22.028 22"
+              >
+                <path
+                  id="поиск"
+                  d="M739.69,117.037l-5.43-5.445a8.665,8.665,0,0,0,2.161-5.71,9.218,9.218,0,1,0-9.212,8.882,9.35,9.35,0,0,0,5.278-1.607l5.471,5.487a1.234,1.234,0,0,0,1.7.032A1.132,1.132,0,0,0,739.69,117.037ZM727.21,99.317a6.57,6.57,0,1,1-6.809,6.565A6.7,6.7,0,0,1,727.21,99.317Z"
+                  transform="translate(-717.998 -97)"
+                  fill="#ff5816"
+                />
+              </svg>
+            </div>
+            <div class="header__cart-ico">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="25.257"
+                height="21.877"
+                viewBox="0 0 25.257 21.877"
+              >
+                <g id="корзина" transform="translate(-275.124 -90.123)">
+                  <path
+                    id="Forma_1"
+                    data-name="Forma 1"
+                    d="M291.65,109.91a2.11,2.11,0,1,1,2.11,2.09A2.1,2.1,0,0,1,291.65,109.91Zm-9.2,0A2.11,2.11,0,1,1,284.56,112,2.1,2.1,0,0,1,282.45,109.91Zm.784-2.784c-1.3,0-1.361-1.424-1.361-1.424l-1.641-12.2-4.215-1.065a1.174,1.174,0,0,1-.856-1.428,1.188,1.188,0,0,1,1.442-.848l5,1.264a1.177,1.177,0,0,1,.883.99l.751,6.046.786,6.207h11.846l.617-2.057-9.93,0a.972.972,0,1,1,0-1.945l10.51,0,.656-2.2-10.338,0a1.049,1.049,0,1,1,0-2.1l11.685,0c1.936,0,1.166,1.991,1.166,1.992l-2.595,7.634a1.382,1.382,0,0,1-1.309,1.134Z"
+                    fill="#ff5816"
+                  />
+                </g>
+              </svg>
+            </div>
+          </div>
+          <div class="header__cart">
+            <a href="#" class="header__cart-button flex">
+              <div class="header__cart-ico">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="25.257"
+                  height="21.876"
+                  viewBox="0 0 25.257 21.876"
+                >
+                  <path
+                    id="Forma_1"
+                    data-name="Forma 1"
+                    d="M1367.66,115.91a2.11,2.11,0,1,1,2.111,2.09A2.1,2.1,0,0,1,1367.66,115.91Zm-9.21,0a2.11,2.11,0,1,1,2.11,2.09A2.1,2.1,0,0,1,1358.45,115.91Zm.784-2.784c-1.3,0-1.361-1.424-1.361-1.424l-1.642-12.2-4.214-1.066a1.173,1.173,0,0,1-.856-1.428,1.186,1.186,0,0,1,1.441-.847l5,1.263a1.178,1.178,0,0,1,.883.99l.751,6.047.786,6.206h11.845l.616-2.057-9.93,0a.972.972,0,1,1,0-1.945l10.511,0,.656-2.2h-10.338a1.048,1.048,0,1,1,0-2.1l11.685,0c1.936,0,1.167,1.991,1.167,1.992l-2.595,7.635a1.383,1.383,0,0,1-1.31,1.133Z"
+                    transform="translate(-1351.125 -96.124)"
+                    fill="#ff5816"
+                  />
+                </svg>
+              </div>
+              <div class="header__cart-count">
+                <p>КОРЗИНА</p>
+                <p><span>4</span> / 4000</p>
+              </div>
+            </a>
+            <div class="header__cart-buttons flex">
+              <a href="#" class="flex">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink"
+                  width="15px"
+                  height="13px"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    fill="rgb(198, 81, 122)"
+                    d="M12.809,0.529 C12.202,0.193 11.505,-0.000 10.763,-0.000 C9.451,-0.000 8.277,0.600 7.501,1.542 C6.722,0.600 5.549,-0.000 4.236,-0.000 C3.495,-0.000 2.799,0.193 2.191,0.529 C0.885,1.256 0.000,2.654 0.000,4.260 C0.000,4.719 0.075,5.160 0.209,5.573 C0.936,8.858 7.501,13.000 7.501,13.000 C7.501,13.000 14.062,8.858 14.790,5.573 C14.925,5.160 15.000,4.719 15.000,4.260 C15.000,2.654 14.115,1.257 12.809,0.529 Z"
+                  />
+                </svg>
+                Избранное
+              </a>
+              <a href="#" class="flex">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink"
+                  width="15px"
+                  height="20px"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    fill="rgb(73, 156, 84)"
+                    d="M0.117,10.698 C0.000,9.643 0.097,8.625 0.362,7.685 C1.242,4.558 4.001,2.259 7.274,2.218 L7.274,0.174 C7.274,0.061 7.411,0.000 7.500,0.069 L11.536,3.159 C11.602,3.212 11.602,3.317 11.536,3.366 L7.504,6.456 C7.411,6.525 7.278,6.464 7.278,6.350 L7.278,4.311 C5.126,4.347 3.289,5.730 2.499,7.685 C2.199,8.423 2.047,9.238 2.090,10.093 C2.148,11.269 2.573,12.352 3.242,13.228 C3.600,13.694 3.515,14.375 3.051,14.728 C2.612,15.065 1.997,14.972 1.658,14.526 C0.829,13.447 0.276,12.133 0.117,10.698 ZM11.770,6.772 C12.443,7.644 12.867,8.731 12.922,9.907 C12.964,10.767 12.809,11.582 12.513,12.315 C11.723,14.270 9.886,15.657 7.734,15.689 L7.734,13.650 C7.734,13.536 7.597,13.476 7.508,13.545 L3.472,16.634 C3.406,16.687 3.406,16.793 3.472,16.841 L7.504,19.931 C7.597,20.000 7.730,19.939 7.730,19.826 L7.730,17.782 C11.003,17.745 13.766,15.446 14.642,12.315 C14.907,11.375 15.000,10.357 14.887,9.303 C14.731,7.867 14.179,6.553 13.350,5.475 C13.007,5.029 12.396,4.935 11.956,5.272 C11.497,5.625 11.412,6.306 11.770,6.772 Z"
+                  /></svg
+                >Сравнить
+              </a>
+            </div>
+          </div>
+        </div>
+      </header>
+    </div>
+  </body>
+</html>
