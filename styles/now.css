@@ -4,8 +4,8 @@
 .now__content {
   justify-content: space-between;
   margin-bottom: 50px;
-  overflow: hidden;
-  /* flex-shrink: 1; */
+  width: 100%;
+  overflow-x: scroll;
 }
 
 .now__content-item {
@@ -33,6 +33,11 @@
 
 @media (max-wdith: 980px) {
   .now__content {
-    overflow: scroll;
+  }
+}
+
+@media (max-width: 750px) {
+  .now {
+    display: none;
   }
 }

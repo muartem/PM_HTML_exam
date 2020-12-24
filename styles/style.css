@@ -42,6 +42,15 @@ button:hover {
   color: #040d0d;
 }
 
+html {
+  overflow: scroll;
+  overflow-x: hidden;
+}
+::-webkit-scrollbar {
+  width: 0px; /* Remove scrollbar space */
+  background: transparent; /* Optional: just make scrollbar invisible */
+}
+
 @media screen and (max-width: 980px) {
   .container {
     padding: 0 10px;
