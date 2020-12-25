@@ -15,6 +15,10 @@
   margin-left: 25px;
 }
 
+.header a:hover {
+  color: #4673ab;
+}
+
 .header__main {
   justify-content: space-between;
   align-items: center;
@@ -116,6 +120,10 @@
   color: white;
   font-size: 13px;
   padding: 5px 8px;
+}
+
+.header__search-form button:hover {
+  background-color: coral;
 }
 
 .header__search-form input {

@@ -31,7 +31,9 @@
   text-decoration: underline;
   line-height: 22px;
 }
-
+.now__content-item:hover p {
+  color: #4673ab;
+}
 @media (max-width: 750px) {
   .now {
     display: none;
