@@ -551,7 +551,7 @@ li:hover > a {
 
 .footer {
   position: relative;
-  min-height: 350px;
+  min-height: 380px;
   width: 100%;
   background-color: #5c7489;
   color: #c8d4dc;
@@ -602,6 +602,73 @@ li:hover > a {
 }
 .tw {
   background-image: url('../img/tw.png');
+}
+
+.logo {
+  font-size: 46px;
+  margin-bottom: 30px;
+}
+
+.logo-sub {
+  font-size: 11px;
+  margin-top: 5px;
+}
+
+.logo span {
+  color: #ff5816;
+  background: url(../img/cart-bg.png) center center no-repeat;
+  border-radius: 10px;
+}
+.contacts {
+  position: relative;
+}
+.bubble {
+  position: absolute;
+  left: -120px;
+  background: url('../img/bubble.png');
+  width: 112px;
+  height: 57px;
+  text-align: center;
+  padding: 13px 0;
+  font-size: 13px;
+  margin-right: 15px;
+}
+
+.bubble:hover {
+  cursor: pointer;
+}
+
+.bubble span {
+  margin-right: 15px;
+  color: #4673ab;
+  border-bottom: 1px dotted #4673ab;
+}
+
+.contacts-content {
+  font-size: 13px;
+}
+
+.contacts-content p {
+  line-height: 20px;
+  align-items: center;
+}
+
+.contacts-content svg {
+  margin-right: 3px;
+}
+
+.contacts-content a {
+  color: #4673ab;
+  text-decoration: underline;
+}
+
+.contacts-phone {
+  font-size: 22px;
+  font-weight: 500;
+}
+
+.skype {
+  display: none;
 }
 
 @media screen and (max-width: 980px) {
