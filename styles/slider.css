@@ -80,12 +80,6 @@
 .slider-link:hover {
   background-color: lightgray;
 }
-.news {
-  min-width: 263px;
-  height: 500px;
-  background-color: black;
-  margin-right: 30px;
-}
 
 @media (max-width: 980px) {
   .banner {
@@ -94,10 +88,7 @@
 }
 
 @media (max-width: 750px) {
-  .news-block {
+  .main {
     display: none;
-  }
-  .news {
-    min-width: 220px;
   }
 }

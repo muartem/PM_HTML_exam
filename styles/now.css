@@ -1,5 +1,6 @@
 .now header {
   margin-bottom: 50px;
+  grid-template-columns: max-content 1fr;
 }
 .now__content {
   justify-content: space-between;
@@ -29,11 +30,6 @@
   font-size: 16px;
   text-decoration: underline;
   line-height: 22px;
-}
-
-@media (max-wdith: 980px) {
-  .now__content {
-  }
 }
 
 @media (max-width: 750px) {
