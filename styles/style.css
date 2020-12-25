@@ -1,9 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,500;1,300;1,500&display=swap');
 
-.flex {
-  display: flex;
-}
 * {
+  transition-duration: 0.2s;
+  font-family: Roboto sans-serif;
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
 }
@@ -17,30 +16,15 @@ button:hover {
   cursor: pointer;
 }
 
-::-webkit-scrollbar {
-  width: 0px; /* Remove scrollbar space */
-  background: transparent; /* Optional: just make scrollbar invisible */
-}
-
-* {
-  transition-duration: 0.2s;
-  font-family: Roboto sans-serif;
-  font-family: 'Roboto', sans-serif;
-  font-weight: 300;
-}
-
-a {
-  color: inherit;
-  text-decoration: none;
-  cursor: pointer;
-}
 .container {
   max-width: 1140px;
-  /* width: 60%; */
   min-width: 750px;
   margin: 0 auto;
 }
 
+.flex {
+  display: flex;
+}
 /*======================TOP MENU=======================*/
 .top-menu {
   background-color: #000;
