@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="ab43d98f-5683-4f63-b478-d75c478ecbe8" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/news_1.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/news_1.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/style.css" afterDir="false" />
     </list>
@@ -50,7 +49,7 @@
       <option name="presentableId" value="Default" />
       <updated>1608326919576</updated>
       <workItem from="1608326929719" duration="38788000" />
-      <workItem from="1608676281620" duration="18486000" />
+      <workItem from="1608676281620" duration="22002000" />
     </task>
     <task id="LOCAL-00001" summary="basic layout">
       <created>1608330284235</created>
@@ -101,7 +100,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608689685157</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="CARDS view all with prom">
+      <created>1608854281790</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1608854281790</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -114,19 +120,20 @@
     <MESSAGE value="CARDS view &quot;new-items&quot;" />
     <MESSAGE value="CARDS view all" />
     <MESSAGE value="CARDS view all (-prom)" />
-    <option name="LAST_COMMIT_MESSAGE" value="CARDS view all (-prom)" />
+    <MESSAGE value="CARDS view all with prom" />
+    <option name="LAST_COMMIT_MESSAGE" value="CARDS view all with prom" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="431" y="0" key="CommitChangelistDialog2" timestamp="1608689683175">
+    <state x="431" y="0" key="CommitChangelistDialog2" timestamp="1608854280600">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="345" y="0" key="CommitChangelistDialog2/0.0.1536.834@0.0.1536.834" timestamp="1608605573044" />
-    <state x="431" y="0" key="CommitChangelistDialog2/0.0.1920.1050@0.0.1920.1050" timestamp="1608689683175" />
-    <state x="451" y="189" key="Vcs.Push.Dialog.v2" timestamp="1608689703336">
+    <state x="431" y="0" key="CommitChangelistDialog2/0.0.1920.1050@0.0.1920.1050" timestamp="1608854280600" />
+    <state x="451" y="189" key="Vcs.Push.Dialog.v2" timestamp="1608854288710">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="361" y="150" key="Vcs.Push.Dialog.v2/0.0.1536.834@0.0.1536.834" timestamp="1608605577396" />
-    <state x="451" y="189" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1608689703336" />
+    <state x="451" y="189" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1608854288710" />
     <state x="425" y="189" key="run.anything.popup" timestamp="1608608313064">
       <screen x="0" y="0" width="1536" height="834" />
     </state>

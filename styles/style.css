@@ -9,6 +9,7 @@
 a{
     color: inherit;
     text-decoration: none;
+    cursor: pointer;
 }
 .container{
     max-width: 60%;
@@ -543,27 +544,65 @@ li:hover>a{
     padding: 10px 20px;
     font-weight: 900;
 }
+/**************CARDS*******/
 
-
-
+/*******footer***************/
 
 .footer{
     position: relative;
     min-height: 350px;
     width: 100%;
-    background-color: #3e6180; /* цвет на глаз*/
+    background-color: #5c7489;
+    color: #c8d4dc;
+}
+.footer a{
+    text-decoration: underline;
+}
+.footer>.container{
+    padding-top: 41px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 60px;
 }
 .disclaimer{
     position: absolute;
     bottom: 30px;
-    height: 74px;
+    min-height: 74px;
     width: 100%;
-    background-color: #273c4f; /* цвет на глаз*/
+    background: #2c3f53;
+    padding: 20px 0;
+}
+.disclaimer>.container{
+    display: grid;
+    grid-template-columns: 1fr max-content;
+    grid-gap: 44px;
 }
 
 
+.disc-img{
+    margin: 0 auto;
+    width: 88px;
+    height: 31px;
+    background-image: url("../img/dis.png");
+}
 
-
+.soc> *{
+    display: block;
+    float: left;
+    width: 30px;
+    height: 30px;
+    margin-left: 5px;
+    border-radius: 5px;
+}
+.vk{
+    background-image: url("../img/vk.png");
+}
+.fb{
+    background-image: url("../img/fb.png");
+}
+.tw{
+    background-image: url("../img/tw.png");
+}
 
 
 @media screen and (max-width: 980px){
@@ -703,10 +742,13 @@ li:hover>a{
     .cards{
         margin-top: 30px;
     }
+    .footer>.container{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .disclaimer>.container{
+        grid-template-columns: 1fr;
+    }
 }
-
-
-
 .hidden{
     display: none;
 }
