@@ -14,6 +14,9 @@
   <component name="Git.Merge.Settings">
     <option name="BRANCH" value="master" />
   </component>
+  <component name="Git.Pull.Settings">
+    <option name="BRANCH" value="master" />
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
@@ -49,7 +52,8 @@
       <option name="presentableId" value="Default" />
       <updated>1608326919576</updated>
       <workItem from="1608326929719" duration="38788000" />
-      <workItem from="1608676281620" duration="22002000" />
+      <workItem from="1608676281620" duration="23053000" />
+      <workItem from="1608931232773" duration="1041000" />
     </task>
     <task id="LOCAL-00001" summary="basic layout">
       <created>1608330284235</created>
@@ -107,7 +111,21 @@
       <option name="project" value="LOCAL" />
       <updated>1608854281790</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="nearly">
+      <created>1608858671365</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1608858671365</updated>
+    </task>
+    <task id="LOCAL-00010" summary="nearly">
+      <created>1608858731792</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1608858731792</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -121,19 +139,20 @@
     <MESSAGE value="CARDS view all" />
     <MESSAGE value="CARDS view all (-prom)" />
     <MESSAGE value="CARDS view all with prom" />
-    <option name="LAST_COMMIT_MESSAGE" value="CARDS view all with prom" />
+    <MESSAGE value="nearly" />
+    <option name="LAST_COMMIT_MESSAGE" value="nearly" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="431" y="0" key="CommitChangelistDialog2" timestamp="1608854280600">
+    <state x="431" y="0" key="CommitChangelistDialog2" timestamp="1608858731002">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="345" y="0" key="CommitChangelistDialog2/0.0.1536.834@0.0.1536.834" timestamp="1608605573044" />
-    <state x="431" y="0" key="CommitChangelistDialog2/0.0.1920.1050@0.0.1920.1050" timestamp="1608854280600" />
-    <state x="451" y="189" key="Vcs.Push.Dialog.v2" timestamp="1608854288710">
+    <state x="431" y="0" key="CommitChangelistDialog2/0.0.1920.1050@0.0.1920.1050" timestamp="1608858731002" />
+    <state x="451" y="189" key="Vcs.Push.Dialog.v2" timestamp="1608858735674">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="361" y="150" key="Vcs.Push.Dialog.v2/0.0.1536.834@0.0.1536.834" timestamp="1608605577396" />
-    <state x="451" y="189" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1608854288710" />
+    <state x="451" y="189" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1608858735674" />
     <state x="425" y="189" key="run.anything.popup" timestamp="1608608313064">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
