@@ -622,7 +622,7 @@ li:hover > a {
 .contacts {
   position: relative;
 }
-.bubble {
+.footer .bubble {
   position: absolute;
   left: -120px;
   background: url('../img/bubble.png');
@@ -634,40 +634,40 @@ li:hover > a {
   margin-right: 15px;
 }
 
-.bubble:hover {
+.footer .bubble:hover {
   cursor: pointer;
 }
 
-.bubble span {
+.footer .bubble span {
   margin-right: 15px;
   color: #4673ab;
   border-bottom: 1px dotted #4673ab;
 }
 
-.contacts-content {
+.footer .contacts-content {
   font-size: 13px;
 }
 
-.contacts-content p {
+.footer .contacts-content p {
   line-height: 20px;
   align-items: center;
 }
 
-.contacts-content svg {
+.footer .contacts-content svg {
   margin-right: 3px;
 }
 
-.contacts-content a {
+.footer .contacts-content a {
   color: #4673ab;
   text-decoration: underline;
 }
 
-.contacts-phone {
+.footer .contacts-phone {
   font-size: 22px;
   font-weight: 500;
 }
 
-.skype {
+.footer .skype {
   display: none;
 }
 
@@ -805,6 +805,7 @@ li:hover > a {
     width: 100%;
     margin: 0 0;
     min-width: auto;
+    padding: 0 10px;
   }
   .no-mob {
     display: none;
@@ -819,6 +820,7 @@ li:hover > a {
     grid-template-columns: 1fr;
   }
 }
+
 .hidden {
   display: none;
 }

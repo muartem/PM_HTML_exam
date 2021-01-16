@@ -4,9 +4,13 @@
   margin-bottom: 10px;
 }
 
-.header__region > span {
+.header__region select {
+  border: none;
+  appearance: none;
+  text-decoration: underline;
+  text-decoration-style: dotted;
   color: var(--link-color);
-  border-bottom: 1px dotted var(--link-color);
+  outline: none;
 }
 
 .header__auth > a {

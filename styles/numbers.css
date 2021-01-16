@@ -56,3 +56,9 @@
     grid-template-columns: max-content 1fr max-content max-content;
   }
 }
+
+@media (max-width: 750px) {
+  .numbers {
+    display: none;
+  }
+}

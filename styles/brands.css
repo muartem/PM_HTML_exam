@@ -8,10 +8,16 @@
 .brands__content {
   overflow-x: auto;
   width: 100%;
+  display: flex;
+  justify-content: space-between;
 }
 
+.brands__content div:not(:last-child) {
+  margin-right: 20px;
+}
 .brands__content img {
-  max-width: 1140px;
+  height: 35px;
+  width: 100px;
 }
 .brands {
   margin-bottom: 60px;
