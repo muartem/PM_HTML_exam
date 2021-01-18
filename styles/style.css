@@ -20,7 +20,6 @@ button:hover {
   max-width: 1140px;
   min-width: 750px;
   margin: 0 auto;
-  padding: 0 10px;
 }
 
 .flex {
@@ -700,6 +699,11 @@ li:hover > a {
   display: none;
 }
 
+@media screen and (max-width: 1150px) {
+  .container {
+    padding: 0 10px;
+  }
+}
 @media screen and (max-width: 980px) {
   .container {
     max-width: calc(100% - 32px);
