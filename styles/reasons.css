@@ -52,8 +52,8 @@
   padding: 25px 40px;
 }
 
-.reasons__card ul {
-  list-style: unset;
+.reasons__card li {
+  list-style-type: disc;
 }
 
 .reasons__card li {
