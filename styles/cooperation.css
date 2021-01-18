@@ -33,11 +33,17 @@
 
 .cooperation__instructions {
   justify-content: space-between;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
 }
 
 .cooperation__instructions-item {
-  flex: 1 0 25%;
+  max-width: 250px;
+  /* flex: 1 0 25%; */
+}
+.cooperation__instructions-item.arrow {
+  min-width: 45px;
+  background: url('../img/workArrowIcon.png') center 10px no-repeat;
+  /* flex: 1 0 25%; */
 }
 
 .cooperation__instructions-ico {
@@ -59,14 +65,22 @@
 }
 
 @media (max-width: 750px) {
+  .cooperation__instructions {
+    flex-wrap: wrap;
+  }
+
   .cooperation__instructions-item {
-    flex: 1 0 50%;
+    flex: 1 0 33%;
     flex-direction: column;
     align-items: center;
     margin-bottom: 40px;
   }
   .cooperation__instructions-ico {
     margin-bottom: 25px;
+  }
+
+  .cooperation__instructions-item.arrow:nth-of-type(4) {
+    display: none;
   }
 
   .cooperation__buttons button {
