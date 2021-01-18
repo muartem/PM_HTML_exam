@@ -33,7 +33,8 @@
         </div>
         <ul class="linear">
           <li>
-            <a href="#">Главная</a>
+            <a  href="#">Главная</a>
+            <span class="tri">&#9660;</span>
             <ul class="drop-down">
               <li><a href="#">drop menu item 1</a></li>
               <li><a href="#">drop menu item 2</a></li>
@@ -45,6 +46,7 @@
           </li>
           <li>
             <a href="#">О компании</a>
+            <span class="tri">&#9660;</span>
             <ul class="drop-down">
               <li><a href="#">drop menu item 1</a></li>
               <li><a href="#">drop menu item 2</a></li>
@@ -276,8 +278,14 @@
         </div>
       </header>
       <nav class="menu">
-        <span class="nav-left hidden">&#10094;</span>
+        <span class="nav-left dis-nav">&#10094;</span>
         <div class="nav-items">
+          <div>
+            <a href="">VOIP <br />ОБОРУДОВАНИЕ</a>
+          </div>
+          <div>
+            <a href="">VOIP <br />ОБОРУДОВАНИЕ</a>
+          </div>
           <div>
             <a href="">VOIP <br />ОБОРУДОВАНИЕ</a>
           </div>
@@ -288,10 +296,7 @@
             <a href="">GSM <br />ОБОРУДОВАНИЕ</a>
           </div>
           <div>
-            <a href=""
-              >ВИДЕО-<br />
-              ОБОРУДОВАНИЕ</a
-            >
+            <a href="">ВИДЕО-<br />ОБОРУДОВАНИЕ</a>
           </div>
           <div>
             <a href="">РАДИО И DECT<br />ТЕЛЕФОНЫ</a>
@@ -405,16 +410,16 @@
             </button>
             <a href="#" class="slider-link">ПОДРОБНЕЕ</a>
             <ul class="slider-dots">
-              <li class="active"></li>
-              <li></li>
-              <li></li>
-              <li></li>
-              <li></li>
+              <li class="slider-dot active"></li>
+              <li class="slider-dot" ></li>
+              <li class="slider-dot"></li>
+              <li class="slider-dot"></li>
+              <li class="slider-dot"></li>
             </ul>
           </div>
         </div>
       </section>
-      <div class="cards new-items">
+      <div class="cards cards-slider-for-js new-items">
         <header>
           <h2>НОВИНКИ</h2>
           <a class="cards-all-min" href="">&#10095;</a>
@@ -427,7 +432,7 @@
           <div class="crd-prev">&#10094;</div>
           <div class="crd-view">
             <div class="card">
-              <div class="crd-label">NEW</div>
+              <div class="crd-label new-label">NEW</div>
               <div class="crd-img" id="tel1"></div>
               <a href="" class="crd-link"
                 >IP телефон Siemens Gigaset C530A IP</a
@@ -441,7 +446,7 @@
               <a class="crd-more">Подробнее</a>
             </div>
             <div class="card">
-              <div class="crd-label">NEW</div>
+              <div class="crd-label new-label">NEW</div>
               <div class="crd-img" id="tel2"></div>
               <a href="" class="crd-link"
                 >IP телефон Siemens Gigaset C530A IP</a
@@ -455,7 +460,7 @@
               <a class="crd-more">Подробнее</a>
             </div>
             <div class="card">
-              <div class="crd-label">NEW</div>
+              <div class="crd-label new-label">NEW</div>
               <div class="crd-img" id="tel3"></div>
               <a href="" class="crd-link"
                 >IP телефон Siemens Gigaset C530A IP</a
@@ -469,10 +474,38 @@
               <a class="crd-more">Подробнее</a>
             </div>
             <div class="card">
-              <div class="crd-label">NEW</div>
+              <div class="crd-label new-label">NEW</div>
               <div class="crd-img" id="tel4"></div>
               <a href="" class="crd-link"
                 >IP телефон Siemens Gigaset C530A IP</a
+              >
+              <p class="crd-price">
+                Цена:
+                <strong>12 300 р.</strong>
+                <del>15 500 р.</del>
+              </p>
+              <div class="crd-buy">КУПИТЬ</div>
+              <a class="crd-more">Подробнее</a>
+            </div>
+            <div class="card">
+              <div class="crd-label new-label">NEW</div>
+              <div class="crd-img" id="tel44"></div>
+              <a href="" class="crd-link"
+              >IP телефон Siemens Gigaset C530A IP</a
+              >
+              <p class="crd-price">
+                Цена:
+                <strong>12 300 р.</strong>
+                <del>15 500 р.</del>
+              </p>
+              <div class="crd-buy">КУПИТЬ</div>
+              <a class="crd-more">Подробнее</a>
+            </div>
+            <div class="card">
+              <div class="crd-label new-label">NEW</div>
+              <div class="crd-img" id="tel55"></div>
+              <a href="" class="crd-link"
+              >IP телефон Siemens Gigaset C530A IP</a
               >
               <p class="crd-price">
                 Цена:
@@ -486,7 +519,7 @@
           <div class="crd-next">&#10095;</div>
         </div>
       </div>
-      <div class="cards recommend">
+      <div class="cards cards-slider-for-js recommend">
         <header>
           <h2>РЕКОМЕНДУЕМ</h2>
           <a class="cards-all-min" href="">&#10095;</a>
@@ -499,7 +532,7 @@
           <div class="crd-prev">&#10094;</div>
           <div class="crd-view">
             <div class="card">
-              <div class="crd-label"></div>
+              <div class="crd-label recommend-label"></div>
               <div class="crd-img" id="tel5"></div>
               <a href="" class="crd-link"
                 >IP телефон Siemens Gigaset C530A IP</a
@@ -513,7 +546,7 @@
               <a class="crd-more">Подробнее</a>
             </div>
             <div class="card">
-              <div class="crd-label"></div>
+              <div class="crd-label recommend-label"></div>
               <div class="crd-img" id="tel6"></div>
               <a href="" class="crd-link"
                 >IP телефон Siemens Gigaset C530A IP</a
@@ -527,7 +560,7 @@
               <a class="crd-more">Подробнее</a>
             </div>
             <div class="card">
-              <div class="crd-label"></div>
+              <div class="crd-label recommend-label"></div>
               <div class="crd-img" id="tel7"></div>
               <a href="" class="crd-link"
                 >IP телефон Siemens Gigaset C530A IP</a
@@ -541,7 +574,7 @@
               <a class="crd-more">Подробнее</a>
             </div>
             <div class="card">
-              <div class="crd-label"></div>
+              <div class="crd-label recommend-label"></div>
               <div class="crd-img" id="tel8"></div>
               <a href="" class="crd-link"
                 >IP телефон Siemens Gigaset C530A IP</a
@@ -554,11 +587,54 @@
               <div class="crd-buy">КУПИТЬ</div>
               <a class="crd-more">Подробнее</a>
             </div>
+            <div class="card">
+              <div class="crd-label new-label">NEW</div>
+              <div class="crd-img" id="tel255"></div>
+              <a href="" class="crd-link"
+              >IP телефон Siemens Gigaset C530A IP</a
+              >
+              <p class="crd-price">
+                Цена:
+                <strong>12 300 р.</strong>
+                <del>15 500 р.</del>
+              </p>
+              <div class="crd-buy">КУПИТЬ</div>
+              <a class="crd-more">Подробнее</a>
+            </div>
+            <div class="card">
+              <div class="crd-label new-label">NEW</div>
+              <div class="crd-img" id="tel535"></div>
+              <a href="" class="crd-link"
+              >IP телефон Siemens Gigaset C530A IP</a
+              >
+              <p class="crd-price">
+                Цена:
+                <strong>12 300 р.</strong>
+                <del>15 500 р.</del>
+              </p>
+              <div class="crd-buy">КУПИТЬ</div>
+              <a class="crd-more">Подробнее</a>
+            </div>
+            <div class="card">
+              <div class="crd-label new-label">NEW</div>
+              <div class="crd-img" id="tel555"></div>
+              <a href="" class="crd-link"
+              >IP телефон Siemens Gigaset C530A IP</a
+              >
+              <p class="crd-price">
+                Цена:
+                <strong>12 300 р.</strong>
+                <del>15 500 р.</del>
+              </p>
+              <div class="crd-buy">КУПИТЬ</div>
+              <a class="crd-more">Подробнее</a>
+            </div>
+
           </div>
           <div class="crd-next">&#10095;</div>
         </div>
       </div>
-      <div class="cards sale">
+      <div class="cards cards-slider-for-js sale">
         <header>
           <h2>РАСПРОДАЖА</h2>
           <a class="cards-all-min" href="">&#10095;</a>
@@ -571,7 +647,7 @@
           <div class="crd-prev">&#10094;</div>
           <div class="crd-view">
             <div class="card">
-              <div class="crd-label">%</div>
+              <div class="crd-label sale-label">%</div>
               <div class="crd-img" id="tel9"></div>
               <a href="" class="crd-link"
                 >IP телефон Siemens Gigaset C530A IP</a
@@ -585,7 +661,7 @@
               <a class="crd-more">Подробнее</a>
             </div>
             <div class="card">
-              <div class="crd-label">%</div>
+              <div class="crd-label sale-label">%</div>
               <div class="crd-img" id="tel10"></div>
               <a href="" class="crd-link"
                 >IP телефон Siemens Gigaset C530A IP</a
@@ -599,7 +675,7 @@
               <a class="crd-more">Подробнее</a>
             </div>
             <div class="card">
-              <div class="crd-label">%</div>
+              <div class="crd-label sale-label">%</div>
               <div class="crd-img" id="tel11"></div>
               <a href="" class="crd-link"
                 >IP телефон Siemens Gigaset C530A IP</a
@@ -613,7 +689,7 @@
               <a class="crd-more">Подробнее</a>
             </div>
             <div class="card">
-              <div class="crd-label">%</div>
+              <div class="crd-label sale-label">%</div>
               <div class="crd-img" id="tel12"></div>
               <a href="" class="crd-link"
                 >IP телефон Siemens Gigaset C530A IP</a
@@ -630,7 +706,7 @@
           <div class="crd-next">&#10095;</div>
         </div>
       </div>
-      <div class="cards promotion">
+      <div class="cards cards-slider-for-js promotion">
         <header>
           <h2>АКЦИИ</h2>
           <a class="cards-all-min" href="">&#10095;</a>
@@ -1297,5 +1373,12 @@
         </div>
       </div>
     </footer>
+
+    <script src="scripts/config.js"></script>
+    <script src="scripts/render-top_menu.js"></script>
+    <script src="scripts/render-menu.js"></script>
+    <script src="scripts/nav-slider.js"></script>
+    <script src="scripts/slider.js"></script>
+    <script src="scripts/cards-slider.js"></script>
   </body>
 </html>
