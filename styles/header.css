@@ -41,12 +41,12 @@
 
 .header__logo span {
   color: var(--orange);
-  background: url(/img/cart-bg.png) center center no-repeat;
+  background: url('../img/cart-bg.png') center center no-repeat;
   border-radius: 10px;
 }
 
 .bubble {
-  background: url('/img/bubble.png');
+  background: url('../img/bubble.png');
   width: 112px;
   height: 57px;
   text-align: center;

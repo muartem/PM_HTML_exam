@@ -21,7 +21,7 @@
 }
 
 .slider-box {
-  background: url('/img/slider.png') left center no-repeat;
+  background: url('../img/slider_0.png') left center no-repeat;
   background-size: auto;
   border-radius: 10px;
   min-height: 370px;
