@@ -20,6 +20,7 @@ button:hover {
   max-width: 1140px;
   min-width: 750px;
   margin: 0 auto;
+  padding: 0 10px;
 }
 
 .flex {
@@ -69,7 +70,7 @@ li:hover > a {
   display: block;
 }
 
-.tri{
+.tri {
   display: inline-block;
   vertical-align: middle;
   margin-left: 10px;
@@ -127,7 +128,7 @@ li:hover > a {
   display: flex;
   cursor: pointer;
 }
-.dis-nav{
+.dis-nav {
   display: none;
   background-color: #e99a79;
 }
@@ -283,13 +284,13 @@ li:hover > a {
   border-radius: 10px;
   border: solid 1px #dbdee6;
 }
-.dmb{
-  color:#dbdee6;
-  border-color: #dbdee6;;
+.dmb {
+  color: #dbdee6;
+  border-color: #dbdee6;
 }
-.dmb:hover{
-  color:#dbdee6;
-  border-color: #dbdee6;;
+.dmb:hover {
+  color: #dbdee6;
+  border-color: #dbdee6;
 }
 .cards-all-min,
 .min-next,
@@ -819,13 +820,13 @@ li:hover > a {
   .term-p {
     display: none;
   }
-  .dmb{
-    color:#dbdee6;
-    border-color: #dbdee6;;
+  .dmb {
+    color: #dbdee6;
+    border-color: #dbdee6;
   }
-  .dmb:hover{
-    color:#dbdee6;
-    border-color: #dbdee6;;
+  .dmb:hover {
+    color: #dbdee6;
+    border-color: #dbdee6;
   }
 }
 
