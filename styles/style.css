@@ -332,6 +332,7 @@ li:hover > a {
   text-align: center;
   color: #ffffff;
   padding-top: 17px;
+  font-weight: 500;
 }
 .crd-label:after {
   display: block;
@@ -449,6 +450,15 @@ li:hover > a {
   padding-top: 17px;
   font-size: 12px;
 }
+.crd-label.new-label::before {
+  content: 'NEW';
+  display: block;
+  width: 100%;
+  position: absolute;
+  top: 12px;
+  text-align: center;
+  left: 0;
+}
 .new-label:after {
   border-top: 9px solid #42c16c;
 }
@@ -456,6 +466,15 @@ li:hover > a {
   background: #499ad9;
   font-size: 20px;
   padding-top: 10px;
+}
+.crd-label.sale-label::before {
+  content: '%';
+  display: block;
+  width: 100%;
+  position: absolute;
+  top: 7px;
+  text-align: center;
+  left: 0;
 }
 .sale-label:after {
   border-top: 9px solid #499ad9;
