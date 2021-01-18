@@ -592,7 +592,7 @@ li:hover > a {
 }
 .disclaimer {
   position: absolute;
-  bottom: 30px;
+  bottom: 0px;
   min-height: 74px;
   width: 100%;
   background: #2c3f53;
