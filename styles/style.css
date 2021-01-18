@@ -261,6 +261,10 @@ li:hover > a {
   align-items: center;
   grid-gap: 43px;
 }
+
+.crd-prev {
+  transform: rotate(180deg);
+}
 .crd-prev,
 .crd-next {
   width: 16px;
