@@ -622,10 +622,9 @@ li:hover > a {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-gap: 60px;
+  margin-bottom: 30px;
 }
 .disclaimer {
-  position: absolute;
-  bottom: 0px;
   min-height: 74px;
   width: 100%;
   background: #2c3f53;
