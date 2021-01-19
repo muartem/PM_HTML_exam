@@ -145,7 +145,7 @@
 }
 
 .header__cart-button {
-  background: url('/img/cart-bg.png') center center no-repeat;
+  background: url('../img/cart-bg.png') center center no-repeat;
   background-size: cover;
   border-radius: 11px;
   font-size: 13px;
