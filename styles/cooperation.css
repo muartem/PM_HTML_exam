@@ -41,7 +41,7 @@
   /* flex: 1 0 25%; */
 }
 .cooperation__instructions-item.arrow {
-  min-width: 45px;
+  max-width: 40px;
   background: url('../img/workArrowIcon.png') center 10px no-repeat;
   /* flex: 1 0 25%; */
 }
@@ -85,5 +85,10 @@
 
   .cooperation__buttons button {
     padding: 10px 4px;
+    margin-top: 5px;
+  }
+
+  .cooperation__instructions-item p {
+    font-size: 13px;
   }
 }

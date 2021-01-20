@@ -192,12 +192,24 @@
     display: flex;
   }
 
+  .header__search {
+    display: none;
+  }
   .header__search-form,
   .header__search-title {
     display: none;
   }
   .header__mobile .header__search-ico {
     display: block;
+  }
+}
+
+@media (max-width: 850px) {
+  .header__cart-button {
+    width: 155px;
+  }
+  .header__cart-buttons:first-child {
+    margin-right: 5px;
   }
 }
 
@@ -214,16 +226,16 @@
   .header__logo-subtitle {
     display: none;
   }
-  .header__contacts-hours {
+  .header .header__contacts-hours {
     display: none;
   }
 
-  .header__contacts {
+  .header .header__contacts {
     order: 3;
     width: 100%;
   }
 
-  .header__contacts-content {
+  .header .header__contacts-content {
     margin-top: 10px;
     width: 100%;
     text-align: left;
@@ -231,21 +243,21 @@
     justify-content: space-between;
   }
 
-  .header__contacts-content p,
-  .header__contacts-content a {
+  .header .header__contacts-content p,
+  .header .header__contacts-content a {
     justify-content: flex-start;
     line-height: 30px;
   }
 
-  .header__contacts-content div:last-child {
+  .header .header__contacts-content div:last-child {
     display: flex;
     flex-direction: column;
   }
 
-  .skype {
+  .header .skype {
     order: 1;
   }
-  .header__contacts-phone {
+  .header .header__contacts-phone {
     font-size: 13px;
     font-weight: 300;
   }
